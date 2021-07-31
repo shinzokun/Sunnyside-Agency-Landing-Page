@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Barlow";
+  font-size: 15px;
+}
+
+* div.Parent-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../images/desktop/image-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+* div.Parent-container div.Home-page-container div.Navbar-container {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 40px;
+}
+
+* div.Parent-container div.Home-page-container div.Navbar-container div.Left-side-container img.Logo-tag {
+  width: 180px;
+}
+
+* div.Parent-container div.Home-page-container div.Navbar-container div.Right-side-container ul.Ul-container {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* div.Parent-container div.Home-page-container div.Navbar-container div.Right-side-container ul.Ul-container li.Litag {
+  margin-right: 40px;
+}
+
+* div.Parent-container div.Home-page-container div.Navbar-container div.Right-side-container ul.Ul-container li.Li-tag a.a-tag {
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+* div.Parent-container div.Home-page-container div.Navbar-container div.Right-side-container ul.Ul-container li.Li-tag a.a-tag:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+* div.Parent-container div.Home-page-container div.Navbar-container div.Right-side-container ul.Ul-container li.Li-tag a.special {
+  color: #23303e;
+  background-color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  -webkit-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+* div.Parent-container div.Home-page-container div.Navbar-container div.Right-side-container ul.Ul-container li.Li-tag a.special:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+* div.Parent-container div.Home-page-container div.Home-container {
+  height: 85vh;
+  position: relative;
+}
+
+* div.Parent-container div.Home-page-container div.Home-container h1.H-one-tag {
+  color: white;
+  font-size: 60px;
+  font-family: "Fraunces";
+  text-transform: uppercase;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  letter-spacing: 1px;
+}
+
+* div.Parent-container div.Home-page-container div.Home-container img.Arrow-tag {
+  width: 30px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+* div.Parent-container div.Section-two-page-container {
+  background-color: yellowgreen;
+  height: 100px;
+  width: 100%;
+}
+
+* div.Parent-container div.Section-two-page-container div.Grid-container {
+  height: 150vh;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "Container-1 Container-2" "Container-3 Container-4";
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+* div.Parent-container div.Section-two-page-container div.Grid-container div.Container-1-section-2 {
+  background-color: rebeccapurple;
+  grid-area: "Container-1";
+}
+
+* div.Parent-container div.Section-two-page-container div.Grid-container div.Container-2-section-2 {
+  background-color: red;
+  grid-area: "Container-2";
+}
+
+* div.Parent-container div.Section-two-page-container div.Grid-container div.Container-3-section-2 {
+  background-color: blue;
+  grid-area: "Container-3";
+}
+
+* div.Parent-container div.Section-two-page-container div.Grid-container div.Container-4-section-2 {
+  background-color: yellow;
+  grid-area: "Container-4";
+}
+/*# sourceMappingURL=styles.css.map */
